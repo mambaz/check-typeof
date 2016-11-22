@@ -1,6 +1,6 @@
 {
     "name": "check-typeof",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Check whether variable is object or array or number or string or undefined or boolean",
     "main": "index.js",
     "scripts": {
