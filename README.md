@@ -6,7 +6,7 @@ Npm package to checks the variable type is an array or object or string or numbe
 
 Installation is easiest through npm:
 
-`npm install check-valid-url --save`
+`npm install check-typeof --save`
 
 ## Usage
 
