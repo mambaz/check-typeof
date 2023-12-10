@@ -1,14 +1,14 @@
 {
     "name": "check-typeof",
-    "version": "0.0.2",
-    "description": "Check whether variable is object or array or number or string or undefined or boolean",
+    "version": "0.1.0",
+    "description": "A Node.js library offering functions to check variable types, including arrays, objects, strings, numbers, booleans, and undefined values.",
     "main": "index.js",
     "scripts": {
         "test": "mocha"
     },
     "devDependencies": {
-        "mocha": "^3.1.2",
-        "chai": "^3.5.0"
+        "chai": "^3.5.0",
+        "mocha": "^10.2.0"
     },
     "repository": {
         "type": "git",

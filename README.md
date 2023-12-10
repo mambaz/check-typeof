@@ -1,40 +1,48 @@
-# check-typeof
+# Type Checker for Node.js
 
-Npm package to checks the variable type is an array or object or string or number or boolean or undefined
+A Node.js package for checking variable types: array, object, string, number, boolean, or undefined.
 
 ## Installation
 
-Installation is easiest through npm:
+Install the package via npm:
 
-`npm install check-typeof --save`
+```bash
+npm install check-typeof --save
+```
 
 ## Usage
 
 ```js
-    var $ = require('check-typeof');
+    const $ = require('check-typeof');
 
-    if ($.isArray(variable_name)) { //if true
-        //your code
+    // Check if the variable is an array
+    if ($.isArray(variableName)) {
+        // Your code for array type
     }
 
-    if ($.isObject(variable_name)) { //if true
-        //your code
+    // Check if the variable is an object
+    if ($.isObject(variableName)) {
+        // Your code for object type
     }
 
-    if ($.isString(variable_name)) { //if true
-        //your code
+    // Check if the variable is a string
+    if ($.isString(variableName)) {
+        // Your code for string type
     }
 
-    if ($.isNumber(variable_name)) { //if true
-        //your code
+    // Check if the variable is a number
+    if ($.isNumber(variableName)) {
+        // Your code for number type
     }
 
-    if ($.isBoolean(variable_name)) { //if true
-        //your code
+    // Check if the variable is a boolean
+    if ($.isBoolean(variableName)) {
+        // Your code for boolean type
     }
 
-    if ($.isUndefined(variable_name)) { //if true
-        //your code
+    // Check if the variable is undefined
+    if ($.isUndefined(variableName)) {
+        // Your code for undefined type
     }
 
 ```
